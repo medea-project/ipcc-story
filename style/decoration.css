@@ -5,3 +5,17 @@ ul, ol {
 ol.roman {
   list-style-type: upper-roman;
 }
+
+ul.bullet {
+  list-style-type: circle;
+}
+
+ul.item > li {
+  position: relative;
+}
+
+ul.item > li::before {
+  content: '\2013';
+  position: absolute;
+  left: -1em;
+}

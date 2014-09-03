@@ -27,13 +27,18 @@ h1, footer {
   font-weight: 500;
 }
 
-h2, nav {
+h2, nav, .the-end {
   font-weight: 400;
 }
 
-p {
+p, ol, ul {
   font-size: 20px;
   text-align: justify;
+}
+
+nav > ol,
+nav > ul {
+  font-size: inherit;
 }
 
 q {
