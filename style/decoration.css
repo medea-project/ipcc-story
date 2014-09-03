@@ -1,0 +1,7 @@
+ul, ol {
+  list-style-type: none;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}

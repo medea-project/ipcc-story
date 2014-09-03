@@ -1,0 +1,35 @@
+body {
+  max-width: 34em;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, select, button, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 2em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+p, ul, ol {
+  margin-top: 0.5em;
+}
+
+nav {
+  margin-top: 1.5em;
+}
+
+nav > ol > li,
+nav > ul > li {
+  margin-bottom: 0.2em;
+}
+
+footer {
+  margin-top: 10em;
+  margin-bottom: 1em;
+}
